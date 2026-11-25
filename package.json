@@ -1,1 +1,12 @@
-
+{
+  "name": "crazy-cook-ws-server",
+  "version": "1.0.0",
+  "description": "WebSocket room relay for Crazy COOK 2-4 player co-op",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
